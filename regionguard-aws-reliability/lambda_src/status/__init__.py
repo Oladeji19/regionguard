@@ -1,0 +1,2 @@
+"""Incident-status API Lambda."""
+

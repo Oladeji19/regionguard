@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "lambda_src"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+exclude = ["cdk.out", ".venv", "node_modules"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

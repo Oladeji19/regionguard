@@ -1,0 +1,2 @@
+"""Health-event processing Lambda."""
+
